@@ -69,5 +69,4 @@ changes needed — the UI renders whatever the API returns.
 - Salary figures are US-market estimates; they vary by region and seniority.
 - The "market scanning" animation is a UX flourish; roadmaps are served instantly
   from the curated database (works fully offline, no API keys, no cost).
-<img width="694" height="623" alt="01-CareerForge" src="https://github.com/user-attachments/assets/f1f2e808-3ab3-4540-926f-36f0e8b603e9" />
-<img width="694" height="623" alt="01-CareerForge" src="https://github.com/user-attachments/assets/b7c7cbbb-1f76-4e6e-b52d-676c334da15f" />
+
