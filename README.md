@@ -10,66 +10,52 @@ Or by Programming Language
 
 
 
-# CareerForge - IT Career Roadmap Generator
+# CareerForge — IT Career Roadmap Generator
 
-A premium Python/Flask web app. Type an IT role and it builds a **chronological
-workflow infographic** of the top certifications, hands-on labs, and real
-experience that actually get you hired — with clickable links at every step.
+A premium Python/Flask web app. Type an IT role **or** pick a language/technology
+and it builds a chronological workflow infographic of exactly what to learn — top
+certifications, hands-on labs, and real experience — with clickable links at every step.
 
 ## What it does
+- Type any IT role (or click a suggested role) to get a get-hired roadmap.
+- Or open the language / technology picker and choose from 81 technologies.
+- A node-and-arrow workflow, colour-coded stages in chronological order
+  (foundation → education → certification → lab → experience → target).
+- Every certification, course, lab and project links to its official page.
+- Export to HTML report — a self-contained file anyone can open on any computer, offline.
+- Where a matching roadmap.sh roadmap exists, roles and technologies also link to it
+  for an interactive roadmap and project ideas (basic → advanced).
 
-- Type any IT role (or click a suggestion chip).
-- Watch a live "researching the market → building roadmap" animation.
-- Get a node-and-arrow workflow: rectangles connected in chronological order,
-  colour-coded by stage (foundation → education → certification → lab →
-  experience → target role).
-- Every certification, course, lab and project links to its official URL
-  (opens in a new tab).
-- Print / Save-as-PDF and Replay-build buttons included.
+## Job roadmaps (15)
+IT / Technical Project Manager, IT Manager (people-leadership / non-IC),
+Data Engineer, Cybersecurity Engineer, Solutions Architect,
+DevOps / Cloud Engineer, Full Stack Developer, Frontend Developer,
+Backend Developer, Artificial Intelligence Engineer, Python Developer,
+Data Scientist / ML Engineer, Software Engineer, IT Business Analyst,
+Network Engineer.
+Only recruiter-recognised credentials — no filler. Any other role falls back to a
+general framework.
 
-Roadmaps are **hand-curated** to include only recruiter-recognised credentials —
-no filler certs. Built-in expert paths cover:
+## Language / technology paths (81)
+8 categories, sorted by market popularity, with a colour-coded popularity badge on
+every item (Very High → Emerging): Languages (general-purpose), Web / app frameworks,
+Data / AI / ML, Data stores / query, DevOps / cloud / tooling, Web markup / styling,
+Blockchain / smart contracts, Other. Each path: Setup → Core → Practice → Build → Proficient,
+linking to official docs, a deeper tutorial, and (where supported) an Exercism track.
 
-Project Manager · Data Engineer · Cybersecurity Engineer · Solutions Architect ·
-DevOps / Cloud Engineer · Data Scientist / ML Engineer · Software Engineer ·
-IT Business Analyst · Network Engineer
+## Run it (pick one)  — needs Python 3.9+
+Just run it:
+    pip install -r requirements.txt
+    python app.py            # then open http://127.0.0.1:5000
+or double-click Run_CareerForge.bat (Windows) / run_careerforge.sh (Mac/Linux).
 
-Any other role you type falls back to a sensible general framework.
-
-## Run it
-
-You need Python 3.9+.
-
-```bash
-cd roadmap_app
-pip install -r requirements.txt
-python app.py
-```
-
-Then open **http://127.0.0.1:5000** in your browser.
-
-## Files
-
-```
-roadmap_app/
-├── app.py              # Flask server + JSON API
-├── roadmaps.py         # Curated roadmap database + fuzzy role matching
-├── requirements.txt
-├── templates/
-│   └── index.html      # The premium animated single-page UI
-└── README.md
-```
-
-## How to extend it
-
-Add or edit roles in `roadmaps.py` → the `ROADMAPS` dict. Each role has
-`keywords` (used for fuzzy matching) and an ordered list of `stages`. Each stage
-has a `kind` (drives colour/icon) and `items` with optional `url`s. No frontend
-changes needed — the UI renders whatever the API returns.
+Make a portable executable (runs with no Python afterward):
+    Windows: double-click build_exe.bat   ->  dist\CareerForge.exe
+    Mac/Lin: ./build_exe.sh               ->  dist/CareerForge
 
 ## Notes
+Salary figures are US-market estimates. Popularity tiers are grounded in the
+Stack Overflow Developer Survey, TIOBE, GitHub Octoverse, and hiring demand.
+Roadmaps are served instantly from curated data (offline, no API keys, no cost).
 
-- Salary figures are US-market estimates; they vary by region and seniority.
-- The "market scanning" animation is a UX flourish; roadmaps are served instantly
-  from the curated database (works fully offline, no API keys, no cost).
 
