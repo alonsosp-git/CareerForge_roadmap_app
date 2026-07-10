@@ -1,9 +1,12 @@
 # CareerForge - IT Career Roadmap Generator
 CareerForge  a premium Flask web app that turns any IT role into a chronological, hire-focused career roadmap, rendered as a live workflow infographic with top certifications, hands-on labs, and real experience. Exports to a standalone HTML report and a portable .exe.
 
-<img width="694" height="623" alt="01-CareerForge" src="https://github.com/user-attachments/assets/11d14841-0509-4559-98f4-d07463b98566" />
+<img width="904" height="883" alt="01-CareerForge" src="https://github.com/user-attachments/assets/33f0bed0-a55b-40bc-8782-fb9aa53e78f3" />
 
-<img width="918" height="2329" alt="02-CareerForge" src="https://github.com/user-attachments/assets/98393c2c-066a-45c8-ac48-f4cfbf573e3b" />
+<img width="898" height="2695" alt="02-CareerForge" src="https://github.com/user-attachments/assets/e9f7dbfc-2eee-4d87-bfe4-3ec59c868859" />
+
+Or by Programming Language
+<img width="905" height="1406" alt="03-CareerForge" src="https://github.com/user-attachments/assets/de194b9e-4810-4e45-a384-98292d538bfe" />
 
 
 
