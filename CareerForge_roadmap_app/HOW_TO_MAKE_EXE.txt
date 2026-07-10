@@ -1,0 +1,4 @@
+MAKE A PORTABLE EXECUTABLE (optional) - not needed to use the app.
+WINDOWS: install Python 3.9+ (tick Add to PATH), double-click build_exe.bat -> dist\CareerForge.exe
+macOS/LINUX: ./build_exe.sh -> dist/CareerForge
+In the app, click "Export HTML report" to save a standalone .html anyone can open offline.
