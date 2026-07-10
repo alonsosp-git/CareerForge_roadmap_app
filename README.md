@@ -5,7 +5,7 @@ CareerForge  a premium Flask web app that turns any IT role into a chronological
 
 
 
-<img width="898" height="2695" alt="02-CareerForge 2" src="https://github.com/user-attachments/assets/77fcb178-6c6e-42be-b96e-0c5988444583" />
+<img width="904" height="2695" alt="02-CareerForge 2" src="https://github.com/user-attachments/assets/77fcb178-6c6e-42be-b96e-0c5988444583" />
 
 Or by Programming Language
 <img width="905" height="1406" alt="03-CareerForge" src="https://github.com/user-attachments/assets/de194b9e-4810-4e45-a384-98292d538bfe" />
