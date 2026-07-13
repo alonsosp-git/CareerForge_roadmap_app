@@ -57,8 +57,7 @@ Make a portable executable (runs with no Python afterward):
     Mac/Lin: ./build_exe.sh               ->  dist/CareerForge
 
 ## Notes
-Salary figures are US-market estimates. Popularity tiers are grounded in the
-Stack Overflow Developer Survey, TIOBE, GitHub Octoverse, and hiring demand.
+Popularity tiers are grounded in the Stack Overflow Developer Survey, TIOBE, GitHub Octoverse, and hiring demand.
 Roadmaps are served instantly from curated data (offline, no API keys, no cost).
 
 
