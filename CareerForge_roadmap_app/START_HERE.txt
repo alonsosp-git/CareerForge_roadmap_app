@@ -1,0 +1,41 @@
+============================================================
+ CareerForge - IT Career Roadmap Generator
+============================================================
+
+WHAT IT DOES
+  Type an IT role or pick a language/technology and it builds a
+  chronological, get-hired learning roadmap as a visual workflow.
+  - 17 job roadmaps (Project Manager, IT Manager, Cybersecurity,
+    GRC Engineer, CISO, Data Engineer, Full Stack / Frontend / Backend
+    Developer, AI Engineer, Python Developer, and more)
+  - 81 technologies across 8 categories, sorted by market popularity
+  - "Export HTML report" button: save a standalone .html anyone can
+    open on any computer (offline, no Python)
+
+------------------------------------------------------------
+ HOW TO RUN  (pick ONE)
+------------------------------------------------------------
+
+A) EASIEST - run it (needs Python 3.9+ installed once)
+   * Windows : double-click  Run_CareerForge.bat
+   * Mac/Lin : ./run_careerforge.sh
+   It installs Flask, starts the app, and opens your browser at
+   http://127.0.0.1:5000
+
+B) MAKE A PORTABLE .EXE (no Python needed to RUN it afterward)
+   * Windows : double-click  build_exe.bat   ->  dist\CareerForge.exe
+   * Mac/Lin : ./build_exe.sh               ->  dist/CareerForge
+   (Building needs Python + internet ONCE, on your machine.
+    The finished .exe needs nothing installed to run.)
+
+------------------------------------------------------------
+ FILES
+------------------------------------------------------------
+  app.py            Flask server + API
+  roadmaps.py       17 curated job roadmaps + fuzzy matching
+  languages.py      81 technology learning paths + popularity data
+  templates/        the premium animated UI (index.html)
+  launcher.py       entry point (opens the browser automatically)
+  Run_CareerForge.* run the app
+  build_exe.*       build the portable executable
+============================================================
